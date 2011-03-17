@@ -2,8 +2,8 @@
 # [rails.vim](https://github.com/tpope/vim-rails) by Tim Pope
 
 * Syntax highlighting
-* `:A` (alternate: model `=>` unit test)
-* `:R` (related: model `=>` schema definition)
+* `:A` Alternate: model `=>` unit test
+* `:R` Related: model `=>` schema definition
 * `:Rgenerate controller Blog`
 * `:Rmodel user`
 * `:Rcontroller users`
