@@ -1,8 +1,9 @@
-!SLIDE smbullets
+!SLIDE smbullets incremental
 # [rails.vim](https://github.com/tpope/vim-rails) by Tim Pope
 
 * Syntax highlighting
-* `:A` (alternate) `:R` (related)
+* `:A` (alternate: model `=>` unit test)
+* `:R` (related: model `=>` schema definition)
 * `:Rgenerate controller Blog`
 * `:Rmodel user`
 * `:Rcontroller users`
