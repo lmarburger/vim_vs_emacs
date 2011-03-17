@@ -1,5 +1,5 @@
-!SLIDE bullets
-# Resources
+!SLIDE smbullets
+# Vim Resources
 
 * [A Byte of Vim](http://www.swaroopch.com/notes/Vim)
 * [Peepcode: Smash Into Vim](http://peepcode.com/products/smash-into-vim-i)
