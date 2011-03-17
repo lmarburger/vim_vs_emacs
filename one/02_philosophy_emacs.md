@@ -1,9 +1,9 @@
-!SLIDE bullets incremental transition=fade
+!SLIDE bullets incremental
 # Church of Emacs
 
 * "Emacs has been scientifically proven to be the ultimate text editor, but it is also so much more than that." http://www.dina.kvl.dk/~abraham/religion/
 
-!SLIDE bullets incremental transition=fade
+!SLIDE bullets incremental
 # Why use Emacs?
 
 * The ultimate extensible editor
