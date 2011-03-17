@@ -139,28 +139,83 @@
 <ul>
 <li><strong>Normal:</strong> Stealthily leap from line to line, over sentences, leaving no trace like a <strong>NINJA</strong></li>
 <li><strong>Insert:</strong> Type text. Boring.</li>
-<li><strong>Visual:</strong> Select text with the precision of a <strong>ROBOT-ASSISTED SURGEON</strong></li>
-<li><img src="./file/one/surgeon.jpg" alt="surgeon.jpg"/></li>
+<li><strong>Visual:</strong> Select text with the precision of a surgeon</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content smbullets incremental" ref="one/21_basics_vim/2">
+</div><div class="slide" data-transition="none"><div class="content center" ref="one/21_basics_vim/2">
+<h1><strong>ROBOT-ASSISTED SURGEON</strong></h1>
+
+<p><img src="./file/one/surgeon.jpg" alt="surgeon.jpg"/></p></div>
+</div><div class="slide" data-transition="none"><div class="content smbullets" ref="one/21_basics_vim/3">
 <h1>Ninja (Normal) Mode</h1>
 
 <ul>
 <li><img src="./file/one/peepcode-vim-command.png" alt="peepcode-vim-command.png"/></li>
-<li><code>dw</code> delete a word</li>
-<li><code>7j</code> move 7 lines down</li>
-<li><code>=ip</code> indent the paragraph</li>
-<li><code>C</code> delete the rest of the line and enter insert mode</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content" ref="one/21_basics_vim/3">
+</div><div class="slide" data-transition="none"><div class="content smbullets" ref="one/21_basics_vim/4">
+<h1>Ninja Motion</h1>
+
+<ul>
+<li><code>w</code> move to the next word: he[l]lo world <code>=&gt;</code> hello [w]orld</li>
+<li><code>fo</code> find char <code>o</code>: he[l]lo world <code>=&gt;</code> hell[o] world</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content smbullets" ref="one/21_basics_vim/5">
+<h1>Ninja Motion</h1>
+
+<ul>
+<li><code>dw</code> delete to the next word: he[l]lo world <code>=&gt;</code> he[w]orld</li>
+<li><code>dfo</code> delete find char <code>o</code>: he[l]lo world <code>=&gt;</code> he[ ]world</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content smbullets" ref="one/21_basics_vim/6">
+<h1>Ninja Motion</h1>
+
+<ul>
+<li><code>d2w</code> delete to the second word: he[l]lo world leaders <code>=&gt;</code> he[l]eaders</li>
+<li><code>d2fo</code> delete find char <code>o</code>: he[l]lo world <code>=&gt;</code> he[r]ld</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content smbullets" ref="one/21_basics_vim/7">
+<h1>Ninja Text Objects</h1>
+
+<ul>
+<li><code>aw</code> a word: he[l]lo world <code>=&gt;</code> [hello ]world</li>
+<li><code>iw</code> inner word: he[l]lo world <code>=&gt;</code> [hello] world</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content smbullets" ref="one/21_basics_vim/8">
+<h1>Ninja Text Objects</h1>
+
+<ul>
+<li><code>caw</code> change a word: he[l]lo world <code>=&gt;</code> |world</li>
+<li><code>ciw</code> change inner word: he[l]lo world <code>=&gt;</code> | world</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content smbullets" ref="one/21_basics_vim/9">
+<h1>Ninja Text Objects</h1>
+
+<ul>
+<li><code>ca"</code> change a quoted string: hello "[w]orld" <code>=&gt;</code> hello|</li>
+<li><code>ci"</code> change inner quoted string: hello "[w]orld" <code>=&gt;</code> hello "|"</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content smbullets" ref="one/21_basics_vim/10">
+<h1>Ninja Text Objects</h1>
+
+<ul>
+<li><code>:h navigation</code></li>
+<li><code>:h text-objects</code></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="one/21_basics_vim/11">
 <h1>WARNING</h1>
 
 <h2>A very small percentage of people may experience a seizure when exposed to certain visual images, including the next slide. Even people who have no history of seizures or epilepsy may have an undiagnosed condition that can cause these "vim-overload epileptic seizures".</h2>
 
 <h2><strong>Immediately stop and switch to and idiot-proof editor like Emacs.</strong></h2></div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="one/21_basics_vim/4">
+</div><div class="slide" data-transition="none"><div class="content center" ref="one/21_basics_vim/12">
 <h1>Vim Cheat Sheet</h1>
 
 <p><img src="./file/one/vim-cheat-sheet.png" alt="vim-cheat-sheet.png"/></p></div>
@@ -224,6 +279,7 @@
 <li><a href="http://vimcasts.org">Vimcasts</a></li>
 <li><a href="http://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim">Learning the vi Editor</a></li>
 <li><a href="http://vimgolf.com">VimGolf</a></li>
+<li><a href="http://philosecurity.org/2009/03/23/pirates-and-ninjas-emacs-or-vi">Pirates and Ninjas: Emacs or Vi?</a></li>
 <li><a href="http://twitter.com/vimtips">@vimtips</a></li>
 </ul>
 </div>
