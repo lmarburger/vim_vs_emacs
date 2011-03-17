@@ -3,17 +3,52 @@
 
 * **Normal:** Stealthily leap from line to line, over sentences, leaving no trace like a **NINJA**
 * **Insert:** Type text. Boring.
-* **Visual:** Select text with the precision of a **ROBOT-ASSISTED SURGEON**
-* ![surgeon.jpg](surgeon.jpg)
+* **Visual:** Select text with the precision of a surgeon
 
-!SLIDE smbullets incremental
+!SLIDE center
+# **ROBOT-ASSISTED SURGEON**
+![surgeon.jpg](surgeon.jpg)
+
+!SLIDE smbullets
 # Ninja (Normal) Mode
 
 * ![peepcode-vim-command.png](peepcode-vim-command.png)
-* `dw` delete a word
-* `7j` move 7 lines down
-* `=ip` indent the paragraph
-* `C` delete the rest of the line and enter insert mode
+
+!SLIDE smbullets
+# Ninja Motion
+* `w` move to the next word: he[l]lo world `=>` hello [w]orld
+* `fo` find char `o`: he[l]lo world `=>` hell[o] world
+
+
+!SLIDE smbullets
+# Ninja Motion
+* `dw` delete to the next word: he[l]lo world `=>` he[w]orld
+* `dfo` delete find char `o`: he[l]lo world `=>` he[ ]world
+
+!SLIDE smbullets
+# Ninja Motion
+* `d2w` delete to the second word: he[l]lo world leaders `=>` he[l]eaders
+* `d2fo` delete find char `o`: he[l]lo world `=>` he[r]ld
+
+!SLIDE smbullets
+# Ninja Text Objects
+* `aw` a word: he[l]lo world `=>` [hello ]world
+* `iw` inner word: he[l]lo world `=>` [hello] world
+
+!SLIDE smbullets
+# Ninja Text Objects
+* `caw` change a word: he[l]lo world `=>` |world
+* `ciw` change inner word: he[l]lo world `=>` | world
+
+!SLIDE smbullets
+# Ninja Text Objects
+* `ca"` change a quoted string: hello "[w]orld" `=>` hello|
+* `ci"` change inner quoted string: hello "[w]orld" `=>` hello "|"
+
+!SLIDE smbullets
+# Ninja Text Objects
+* `:h navigation`
+* `:h text-objects`
 
 !SLIDE
 # WARNING
