@@ -1,6 +1,10 @@
-!SLIDE bullets incremental
-# Rails with Vim
+!SLIDE smbullets
+# [rails.vim](https://github.com/tpope/vim-rails) by Tim Pope
 
-* rails.vim by Tim Pope
-* https://github.com/tpope/vim-rails
-
+* Syntax highlighting
+* `:A` (alternate) `:R` (related)
+* `:Rgenerate controller Blog`
+* `:Rmodel user`
+* `:Rcontroller users`
+* `:Rview users/show.html.erb`
+* Smart: `:Rcon U<tab>`
