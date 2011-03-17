@@ -6,7 +6,7 @@
 * **Visual:** Select text with the precision of a surgeon
 
 !SLIDE center
-# **ROBOT-ASSISTED SURGEON**
+# **A ROBOT-ASSISTED SURGEON**
 ![surgeon.jpg](surgeon.jpg)
 
 !SLIDE smbullets
