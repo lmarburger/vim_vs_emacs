@@ -5,7 +5,7 @@
 * Precompiled: [http://code.google.com/p/macvim]()
 
 !SLIDE commandline
-# Make Vim Usable
+# Make Vim Friendly
 
     $ git clone git://github.com/carlhuda/janus.git ~/.vim
     $ cd ~/.vim

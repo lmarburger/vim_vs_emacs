@@ -3,6 +3,7 @@
 
 * Precision: Text surgery
 * Efficiency: Minimize keystrokes and movement
+* Modal: Commands are mode-sensitive
 * Usable over a 300 baud-modem
 
 !SLIDE center
